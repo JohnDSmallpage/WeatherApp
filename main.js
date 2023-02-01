@@ -34,7 +34,7 @@ function printResults(data){
          let {country}= sys;
          let {speed} = wind;
          temp= Math.round(temp - 273);
-         temperature.innerHTML= temp + " ºC";
+         temperature.innerHTML= temp + " ºC ";
          new_humidity.innerHTML= humidity + "%";
          new_wind.innerHTML= speed  + " meter/sec";
          city.innerHTML= `${data.name}, ${country}`;
