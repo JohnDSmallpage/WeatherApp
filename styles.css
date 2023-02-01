@@ -64,7 +64,12 @@ main{
     background: #67ABA7;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    opacity: 0.8;
     
+}
+
+.search-button:hover{
+    opacity: 1;
 }
 
 .info-container{
